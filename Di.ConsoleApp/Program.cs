@@ -24,6 +24,7 @@ internal class Program
             ValidateScopes = true
         });
 
+
         var greeting = serviceProvider.GetService<IGreeting>();
         greeting!.SayHello();
     }
